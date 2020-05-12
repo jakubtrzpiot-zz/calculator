@@ -1,0 +1,20 @@
+@import './base.scss';
+
+.calculator {
+  font-family: 'DM Mono', monospace;
+  display: grid;
+  justify-self: center;
+  align-self: center;
+}
+.equation {
+  grid-template-columns: 400px;
+  grid-template-rows: 100px;
+}
+.clear {
+  grid-template-columns: 200px 200px;
+  grid-template-rows: 100px;
+}
+.keys {
+  grid-template-columns: 100px 100px 100px 100px;
+  grid-template-rows: 100px 100px 100px 100px 100px;
+}

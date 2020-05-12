@@ -1,0 +1,20 @@
+@import './base.scss';
+
+.tile {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: $giga;
+  margin: $spacing/5;
+  outline: none;
+}
+.symbol {
+  color: white;
+  background: rgb(212, 45, 101);
+  border: 0.1vw solid rgb(122, 22, 18);
+}
+.number {
+  color: rgb(212, 45, 101);
+  background: white;
+  border: 0.1vw solid rgb(122, 22, 18);
+}
